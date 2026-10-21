@@ -1,0 +1,13 @@
+langchain
+langchain-core
+langchain-community
+pypdf 
+pymupdf
+beautifulsoup4
+lxml
+numpy
+sentence-transformers
+chromadb
+langchain-openai
+langchain-google-genai
+python-dotenv

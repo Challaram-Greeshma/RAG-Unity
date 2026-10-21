@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+wheels/
+*.egg-info/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv
+venv/
+ENV/
+
+# Secrets (keep .env.example)
+.env
+.env.*
+!.env.example
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+
+# Type checkers / linters
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated ChromaDB (rebuild with `rag ingest`)
+data/vector_store/
+
+# Full Unity Manual dump (pipeline uses the curated files in data/)
+Documentation/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
